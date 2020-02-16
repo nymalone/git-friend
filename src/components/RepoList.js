@@ -9,6 +9,7 @@ const RepoCard = styled.div`
   width: 100%;
   height: auto;
   flex-wrap: wrap;
+  
 `
 
 const RepoList = ({ repos }) => (

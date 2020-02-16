@@ -6,9 +6,12 @@ import Header from './Header'
 import Form from './Form'
 import RepoList from './RepoList';
 
+
+
 const Body = styled.section`
+
   background: #8372AA;
-  height: auto;
+
 `
 
   class TheBody extends Component {
@@ -47,7 +50,7 @@ const Body = styled.section`
     render() {
     const { user, repos, error, loading } = this.state;
     return (
-      <Body>
+      <Body>  
       <Header />
     <Form 
         changeUser={this.changeUser}

@@ -2,9 +2,7 @@ import React from "react";
 import styled from 'styled-components'
 
 const Navbar = styled.section`
-  background: #8372AA;
   width: 100%;
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +10,8 @@ const Navbar = styled.section`
 `
 
 const Img = styled.img`
-  width: 59px;
-  height: 69px;
-
+  width: 580px;
+  padding-top: 20px;
 `
 
 const Title = styled.h4`
@@ -28,12 +25,12 @@ const Title = styled.h4`
 `
 
 const Header = ({ repos }) => (
-  <div className="repoListContainer">
+  <div>
      <Navbar>
-      <Img src='./images/logo.png' alt='logo' />
-      <Title>
+      <Img src='./images/friends2.png' alt='logo' />
+      {/* <Title>
       GIT • F • R • I • E • N • D • S •
-      </Title>
+      </Title> */}
     </Navbar>
   </div>
 );

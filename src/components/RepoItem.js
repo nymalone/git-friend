@@ -6,12 +6,16 @@ const Card = styled.div`
   flex-direction: column;
   padding: 10px;
   width: 27%;
-  background: #fff;
+  background: transparent;
   height: 90px;
   padding: 20px;
   margin: 10px;
   border-radius: 5px;
-  box-shadow: 3px 3px 10px #ddd;
+  box-shadow: 8px 8px 10px #F2D13B;
+
+  &:hover {
+  box-shadow: 8px 8px 10px white;
+  }
 `
 const Name = styled.p`
   font-size: 22px;
@@ -26,7 +30,7 @@ const Link = styled.a`
 const Stars = styled.p`
   font-size: 19px;
   font-weight: bold;
-  color: #0679cf;
+  color:  #F2D13B;
   text-decoration: none;
 `
 

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const SearchBar = styled.input`
   width: 440px;
-  border: 3px solid #F2D13B;
+  border: 2px solid #F2D13B;
   border-right: none;
   padding: 5px;
   height: 26px;
@@ -19,7 +19,7 @@ const SearchBar = styled.input`
 const SearchButton = styled.button`
   width: 40px;
   height: 42px;
-  border: 3px solid #F2D13B;
+  border: 2px solid #F2D13B;
   background: #F2D13B;
   text-align: center;
   color:  #0679cf;
@@ -30,8 +30,10 @@ const SearchButton = styled.button`
 `
 
 const Title = styled.h4`
-  color: #F2D13B;
-  font-size: 30px;
+  color: white;
+  font-size: 35px;
+  text-shadow: -1px 0 #F2D13B, 0 1px #F2D13B, 1px 0 #F2D13B, 0 -1px #F2D13B;
+  font-family: Verdana;
 `
 const Error = styled.p`
   color: red;

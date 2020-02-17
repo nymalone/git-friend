@@ -1,6 +1,6 @@
-# Git Friend
 
-An simple platform to you search for yours friends and check their repos.
+![friends2 copy](https://user-images.githubusercontent.com/54912285/74648420-69144a80-515c-11ea-8f34-4f836060c571.png)
+<p align="center"> <b> An simple platform for you to search for yours friends and check their repos. </b>  </p>
 
 ## Getting Started
 * Clone or dowload this repo

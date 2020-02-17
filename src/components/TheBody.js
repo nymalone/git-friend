@@ -6,13 +6,7 @@ import Header from './Header'
 import Form from './Form'
 import RepoList from './RepoList';
 
-
-
-const Body = styled.section`
-
-  background: #8372AA;
-
-`
+import { Body } from './styles.js'
 
   class TheBody extends Component {
     state = {

@@ -3,14 +3,7 @@ import styled from 'styled-components'
 
 import RepoItem from "./RepoItem";
 
-const RepoCard = styled.div`
-  display: flex;
-  padding: 30px;
-  width: 100%;
-  height: auto;
-  flex-wrap: wrap;
-  
-`
+import { RepoCard } from './styles.js'
 
 const RepoList = ({ repos }) => (
   <RepoCard>

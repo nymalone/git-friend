@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Img } from './styles.js'
+import { Navbar, Img } from "./styles.js";
 
 const Header = ({ repos }) => (
   <div>

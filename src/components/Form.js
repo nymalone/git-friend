@@ -4,7 +4,7 @@ import { Title, SearchBar, SearchButton, Error } from "./styles.js";
 
 const Form = ({ user, loading, error, buttonAction, changeUser }) => (
   <div>
-    <Title>Type your friends names and check their repos</Title>
+    <Title>Type your friends' names and check their repos</Title>
     <SearchBar
       type="text"
       value={user}

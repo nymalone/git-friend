@@ -60,7 +60,8 @@ export const Body = styled.section`
 
 export const RepoCard = styled.div`
   display: flex;
-  padding: 30px;
+  padding-left: 55px;
+  padding-top: 30px;
   height: auto;
   flex-wrap: wrap;
 `;
